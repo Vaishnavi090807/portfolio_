@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sabbe/OneDrive/Desktop/Vaishnavi/protfolio/components/CinematicLayer/CinematicLayer.module.css"],"sourcesContent":[".root {\n  position: absolute;\n  inset: 0;\n  pointer-events: none;\n  mix-blend-mode: screen;\n  opacity: 0;\n  animation: fadeIn 3.4s cubic-bezier(0.4, 0, 0.2, 1) 1.4s forwards;\n  contain: strict;\n}\n\n.canvas {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n\n@keyframes fadeIn {\n  to {\n    opacity: 1;\n  }\n}\n\n@media (prefers-reduced-motion: reduce) {\n  .root {\n    animation: none;\n    opacity: 1;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;;;;;;AAMA;;;;;;AAMA;EACE"}}]
+}

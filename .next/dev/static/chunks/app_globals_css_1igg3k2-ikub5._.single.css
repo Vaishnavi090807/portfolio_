@@ -1,0 +1,38 @@
+/* [project]/app/globals.css [app-client] (css) */
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+:root {
+  --ink: #050608;
+  --paper: #f6efe6;
+  --ember: #ff9a4a;
+  --monitor: #5aa9ff;
+}
+
+html {
+  background: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: var(--ember);
+  color: var(--ink);
+}
+
+/*# sourceMappingURL=app_globals_css_1igg3k2-ikub5._.single.css.map*/

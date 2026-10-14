@@ -1,0 +1,31 @@
+/* [project]/components/CinematicLayer/CinematicLayer.module.css [app-client] (css) */
+.CinematicLayer-module__Y_Ev5G__root {
+  pointer-events: none;
+  mix-blend-mode: screen;
+  opacity: 0;
+  contain: strict;
+  animation: 3.4s cubic-bezier(.4, 0, .2, 1) 1.4s forwards CinematicLayer-module__Y_Ev5G__fadeIn;
+  position: absolute;
+  inset: 0;
+}
+
+.CinematicLayer-module__Y_Ev5G__canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@keyframes CinematicLayer-module__Y_Ev5G__fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .CinematicLayer-module__Y_Ev5G__root {
+    opacity: 1;
+    animation: none;
+  }
+}
+
+/*# sourceMappingURL=components_CinematicLayer_CinematicLayer_module_18q57hgub96sw.css.map*/
